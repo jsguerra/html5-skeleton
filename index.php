@@ -13,7 +13,7 @@ $assets = array(
     '</images/mainpromo/welcome01-1600.jpg>'=> 'image'
 );
 
-array_walk( $assets, push_to_browser);
+array_walk( $assets, 'push_to_browser');
 
 ?>
 
